@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    
+</head>
+<body>
+    <table>
+        <tr><td colspan="4" class="rest"><span id="res"></span></td>
+        </tr>
+        <tr>
+            <td><button name="boton" id="boton" class="boton op" onclick="determinar()"><--</button></td>
+            <td><button name="boton" id="boton" class="boton op" onclick="determinar()">CE</button></td>
+            <td><button name="boton" id="boton" class="boton op" onclick="borrar()">C</button></td>
+            <td><button name="boton" id="boton" class="boton op" onclick="signo('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('7')">7</button></td>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('8')">8</button></td>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('9')">9</button></td>
+            <td><button name="boton" id="boton" class="boton op" onclick="signo('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('4')">4</button></td>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('5')">5</button></td>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('6')">6  </button></td>
+            <td><button name="boton" id="boton" class="boton op" onclick="signo('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('1')">1</button></td>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('2')">2</button></td>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar('3')">3</button></td>
+            <td><button name="boton" id="boton" class="boton op" onclick="signo('+')">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button name="boton" id="boton" class="boton1" onclick="determinar(0)">0</button></td>
+            <td><button name="boton" id="boton" class="boton" onclick="determinar()">,</button></td>
+            <td><button name="boton" id="boton" class="boton igual" onclick="resultado()">=</button></td>
+        </tr>
+    </table>
+<script type="text/javascript" src="Clasefonrtend/Calculadora.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.division{
+	margin-top: 200px;
+}
+table{
+
+	margin:0 auto;
+	background-color: #283F72;
+	border-radius: 8px;
+}
+.boton{
+	height: 58px;
+	width: 60px;
+	background-color: #1B3367;
+	border: solid #1B3367 1px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color:white;
+	text-align: center;
+	margin:0;
+}
+.boton1{
+	height: 58px;
+	width: 124px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #1B3367;
+	border: solid #1B3367 1px;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+	margin:0;
+		border-radius: 0px 0px 0px 8px;
+}
+.boton:hover,.boton1:hover{
+	background-color: #B3B6B7;
+		border: solid #B3B6B7 1px;
+}
+.rest{
+	width: 100px;
+
+	border-radius: 8px 8px 0px 0px;
+	height:100px;
+	color: white;
+	font-size: 50px;
+	text-align: right;
+	background: rgba(8,33,83,1);
+background: -moz-linear-gradient(top, rgba(8,33,83,1) 0%, rgba(8,33,83,1) 44%, rgba(33,57,110,1) 90%, rgba(33,57,110,1) 97%, rgba(33,57,110,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(8,33,83,1)), color-stop(44%, rgba(8,33,83,1)), color-stop(90%, rgba(33,57,110,1)), color-stop(97%, rgba(33,57,110,1)), color-stop(100%, rgba(33,57,110,1)));
+background: -webkit-linear-gradient(top, rgba(8,33,83,1) 0%, rgba(8,33,83,1) 44%, rgba(33,57,110,1) 90%, rgba(33,57,110,1) 97%, rgba(33,57,110,1) 100%);
+background: -o-linear-gradient(top, rgba(8,33,83,1) 0%, rgba(8,33,83,1) 44%, rgba(33,57,110,1) 90%, rgba(33,57,110,1) 97%, rgba(33,57,110,1) 100%);
+background: -ms-linear-gradient(top, rgba(8,33,83,1) 0%, rgba(8,33,83,1) 44%, rgba(33,57,110,1) 90%, rgba(33,57,110,1) 97%, rgba(33,57,110,1) 100%);
+background: linear-gradient(to bottom, rgba(8,33,83,1) 0%, rgba(8,33,83,1) 44%, rgba(33,57,110,1) 90%, rgba(33,57,110,1) 97%, rgba(33,57,110,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#082153', endColorstr='#21396e', GradientType=0 );
+}
+
+.op{
+	color: #D16642;
+}
+.igual{
+	background-color:#FF875B;
+	border: solid #FF875B 1px;
+	color: white;
+	border-radius: 0px 0px 8px 0px;
+}
